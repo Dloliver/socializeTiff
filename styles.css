@@ -25,6 +25,7 @@ body {
   align-items: center;
   background-color: black;
   margin: 5px;
+  border-radius: 15px;
 }
 
 .summary {
@@ -49,7 +50,7 @@ h2 {
 
 button {
   display: inline-block;
-  border-radius: 4px;
+  border-radius: 15px;
   background-color: rgba(0,0,0, 0.3);
   border: none;
   color: #FFFFFF;
@@ -98,6 +99,20 @@ button:hover span:after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+a:link, a:visited {
+  background-color: black;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+a:hover, a:active {
+  background-color: black;
 }
 
 @media screen and (max-width: 1000px){
