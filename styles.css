@@ -5,9 +5,13 @@ img {
 }
 
 body {
-  background-color: rgba(105,105,105, 0.5);
+  background-color: rgba(128, 0, 32, 0.9);
   font-size: 15px;
-  
+}
+
+.email {
+  color:rgb(209,125,5);
+  text-align: center;
 }
 
 .image {
@@ -19,10 +23,7 @@ body {
   display:flex;
   justify-content: center;
   align-items: center;
-  background-image: url(tyedye.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: black;
   margin: 5px;
 }
 
